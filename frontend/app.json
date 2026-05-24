@@ -1,0 +1,33 @@
+{
+  "name": "大象账本",
+  "slug": "daxiang",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "backgroundColor": "#F4EEDE"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": false,
+    "bundleIdentifier": "com.daxiang.app"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "backgroundColor": "#F4EEDE"
+    },
+    "package": "com.daxiang.app"
+  },
+  "plugins": [
+    "expo-router",
+    "expo-font",
+    "expo-asset"
+  ],
+  "scheme": "daxiang",
+  "experiments": {
+    "typedRoutes": true
+  }
+}

@@ -1,0 +1,18 @@
+# 敏感文件
+.env
+*.env.local
+
+# 数据库文件
+*.db
+*.db-shm
+*.db-wal
+
+# 编译产物
+daxiang
+/backend/daxiang
+
+# Go
+vendor/
+
+# macOS
+.DS_Store
